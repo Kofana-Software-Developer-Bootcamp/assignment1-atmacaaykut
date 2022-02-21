@@ -1,0 +1,19 @@
+#arkaplan{
+    width: 100%;
+    height: 1000px;
+    background-image: url("images/arkaplan.png");
+    background-repeat:repeat;
+    background-size: 150px;
+    padding-bottom:0%;
+}
+#logo{
+    width: 100%;
+    height:300px;
+    margin-left: 40%;
+    margin-right: auto;
+    float: left;
+}
+#tablo{
+    width: 70%;
+    margin-left: 40%;
+}
