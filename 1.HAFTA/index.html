@@ -12,83 +12,83 @@
 <body>
     <div id="arkaplan">
         <div id="logo" style="float: left;"><img src="images/logo.png" width="300" height="300"></div>
-        
-            <div id="formelemanlari">
-                <form class="w3-container" style="text-align: center;">
-                    <p>
-                    
-                    <input type="text" class="w3-input input" placeholder="Ad Soyad"></p>
-                    <p>
-                    
-                    <input type="text" class="w3-input input"  placeholder="E-posta Adresi"></p>
-                    <p>
-                   
-                    <input type="text" class="w3-input input" placeholder="Telefon Numarası"></p>
-                    
-                    <p>
-                        <select name="Cinsiyet" class="w3-input input" style="width: 100%; height: 40px;background-color: #e3e1ff;">
-                            <option>Cinsiyet</option>
-                            <option>Erkek</option>
-                            <option>Kadın</option>                           
-                        </select>
-                          </p>
 
-                          <p>
-                            <select name="Cinsiyet" class="w3-input input" style="width: 100%; height: 40px;background-color: #e3e1ff;">
-                                <option>Yaşadığınız Şehir</option>
-                                <option>İstanbul</option>
-                                <option>Ankara</option>
-                                <option>İzmir</option>
-                                <option>Bursa</option>
-                                <option>Antalya</option>                            
-                            </select>
-                              </p>
+        <div id="formelemanlari">
+            <form class="w3-container" id="frm" style="text-align: center;">
+                <p>
+
+                    <input type="text" id="ad" class="w3-input input" placeholder="Ad Soyad">
+                </p>
+                <p>
+
+                    <input type="text" id="posta" class="w3-input input" placeholder="E-posta Adresi">
+                </p>
+                <p>
+
+                    <input type="text" id="tel" class="w3-input input" placeholder="Telefon Numarası">
+                </p>
+
+                <p>
+                    <select name="Cinsiyet" id="cinsiyet" class="w3-input input"
+                        style="width: 100%; height: 40px;background-color: #e3e1ff;">
+                        <option>Cinsiyet</option>
+                        <option>Erkek</option>
+                        <option>Kadın</option>
+                    </select>
+                </p>
+
+                <p>
+                    <select name="Calisma" id="calisma" class="w3-input input"
+                        style="width: 100%; height: 40px;background-color: #e3e1ff;">
+                        <option>Çalışma Durumu</option>
+                        <option>Tam Zamanlı</option>
+                        <option>Yarı Zamanlı</option>
+                        <option>Stajyer</option>
+                        <option>Çalışmıyor</option>
+                    </select>
+                </p>
+
+                <p>
+                    <select name="Sehir" id="sehir" class="w3-input input"
+                        style="width: 100%; height: 40px;background-color: #e3e1ff;">
+                        <option>Yaşadığınız Şehir</option>
+                        <option>İstanbul</option>
+                        <option>Ankara</option>
+                        <option>İzmir</option>
+                        <option>Bursa</option>
+                        <option>Antalya</option>
+                    </select>
+                </p>
 
 
-                          <p>
-                            <select name="Cinsiyet" class="w3-input input" style="width: 100%; height: 40px;background-color: #e3e1ff;">
-                                <option>Bölüm</option>
-                                <option>Endüstri Mühendisi</option>
-                                <option>Bilgisayar Mühendisi</option>
-                                <option>Yazılım Mühendisi</option>                            
-                            </select>
-                              </p>
+                <p>
+                    <select name="Bolum" id="bolum" class="w3-input input"
+                        style="width: 100%; height: 40px;background-color: #e3e1ff;">
+                        <option>Bölüm</option>
+                        <option>Endüstri Mühendisi</option>
+                        <option>Bilgisayar Mühendisi</option>
+                        <option>Yazılım Mühendisi</option>
+                    </select>
+                </p>
 
-                             
 
-                              <p>
-                                <select name="Cinsiyet" class="w3-input input" style="width: 100%; height: 40px;background-color: #e3e1ff;">
-                                    <option>Çalışmak İstediğiniz Alan</option>
-                                    <option>Back-End</option>
-                                    <option>Front-End</option>
-                                    <option>Full-Stack</option>
-                                    <option>Mobil</option>                            
-                                </select>
-                                  </p>
 
-                                  <p>
-                                    <select name="Cinsiyet" class="w3-input input" style="width: 100%; height: 40px;background-color: #e3e1ff;">
-                                        <option>Çalışma Durumu</option>
-                                        <option>Tam Zamanlı</option>
-                                        <option>Yarı Zamanlı</option>
-                                        <option>Stajyer</option>
-                                        <option>Çalışmıyor</option>                            
-                                    </select>
-                                      </p>
+                <p>
+                    <select name="alan" id="alan" class="w3-input input"
+                        style="width: 100%; height: 40px;background-color: #e3e1ff;">
+                        <option>Çalışmak İstediğiniz Alan</option>
+                        <option>Back-End</option>
+                        <option>Front-End</option>
+                        <option>Full-Stack</option>
+                        <option>Mobil</option>
+                    </select>
+                </p>
 
-                          <p>
-                   
-                            <input type="text" class="w3-input input" placeholder="Telefon Numarası"></p>
-                            
-                            <p>
-                   
-                                <input type="text" class="w3-input input" placeholder="Telefon Numarası"></p>
+                <button class="button" onclick="kaydet();">KAYDET</button>
+        </div>
+        </form>
+    </div>
 
-                    <button class="button">KAYDET</button>
-</div>
-                  </form>
-            </div>
-        
     </div>
 </body>
 
