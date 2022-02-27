@@ -25,7 +25,7 @@ function kaydet(){
     };
 
     kayit.push(liste);
-   //document.getElementById("frm").reset();
+   document.getElementById("frm").reset();
    console.table(kayit);
   
 }
